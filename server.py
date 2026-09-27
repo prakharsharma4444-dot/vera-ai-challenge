@@ -5,6 +5,9 @@ import hashlib
 import os
 import re
 import time
+from dotenv import load_dotenv
+
+load_dotenv()
 from datetime import datetime, timezone
 from threading import Lock
 from typing import Any, Dict, Optional
